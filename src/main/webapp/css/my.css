@@ -1,0 +1,117 @@
+td {
+    border: 1px solid black;
+    padding: 3px;
+    text-align: center; /* Выравниваем текст по центру ячейки */
+}
+
+table {
+    border-collapse: collapse;
+    font-family: Tahoma, Geneva, sans-serif;
+
+}
+
+thead {
+    border: 2px crimson;
+    border-radius: 10px;
+    text-align: center;
+    background-color: dimgrey;
+    color: aliceblue;
+    height: auto;
+    margin: auto;
+    width: 30%;
+}
+
+.save_button {
+    border-radius: 10px;
+    margin-left: 60%;
+    transform: translateY(-50%);
+}
+
+.container {
+    margin: auto;
+    width: 33%;
+    height: 60%;
+}
+
+.creating_new_account_div {
+    padding: inherit;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-left: 0%;
+    margin-top: 5%;
+    width: 33%;
+    height: 96%;
+    backdrop-filter: blur();
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    padding: 8px 0px 8px 25px;
+}
+
+label {
+    color: #2d2d2d;
+    font-size: 17px;
+    font-family: Arial;
+    width: 100px;
+    float: left;
+}
+
+.table-header {
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 60px;
+    margin: auto;
+    text-align: center;
+    text-decoration-style: dotted;
+    text-shadow: aqua;
+    width: 30%;
+    background-color: aqua;
+}
+
+.pages_table {
+    border: 1px solid black;
+    width: 50%;
+    height: 9%;
+    margin: auto;
+
+}
+
+.pages_table_label {
+    border: transparent;
+    margin-left: 0;
+    margin-bottom: 0;
+    padding: 20px;
+
+}
+
+h2 {
+    text-align: center;
+}
+
+body {
+    background-image: url("/img/Sky.jpg");
+    height: 100%;
+    size: auto;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.end_text {
+    background: #262626;
+    color: white;
+    text-align: left;
+    border: 2px solid black;
+    width: auto;
+    height: 30px;
+    margin: auto;
+
+}
